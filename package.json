@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/utils-group",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Group values as arrays associated with distinct keys.",
   "license": "Apache-2.0",
   "author": {
