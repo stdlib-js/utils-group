@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/utils-group",
-  "version": "0.0.8",
+  "version": "0.0.0",
   "description": "Group values as arrays associated with distinct keys.",
   "license": "Apache-2.0",
   "author": {
@@ -40,6 +40,7 @@
     "@stdlib/assert-has-own-property": "^0.0.x",
     "@stdlib/assert-is-collection": "^0.0.x",
     "@stdlib/assert-is-plain-object": "^0.0.x",
+    "@stdlib/string-format": "^0.0.x",
     "@stdlib/types": "^0.0.x",
     "@stdlib/utils-index-of": "^0.0.x"
   },
