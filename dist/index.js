@@ -1,13 +1,7 @@
-"use strict";var i=function(e,u){return function(){return u||e((u={exports:{}}).exports,u),u.exports}};var g=i(function(B,o){
-var x=require('@stdlib/assert-is-plain-object/dist'),E=require('@stdlib/assert-has-own-property/dist'),P=require('@stdlib/utils-index-of/dist'),s=require('@stdlib/error-tools-fmtprodmsg/dist'),v=["values","indices","*"];function y(e,u){return x(u)?E(u,"returns")&&(e.returns=u.returns,P(v,e.returns)===-1)?new TypeError(s('1UJ4S',"returns",v.join('", "'),e.returns)):null:new TypeError(s('1UJ2V',u));}o.exports=y
-});var l=i(function(D,f){
-var T=require('@stdlib/assert-has-own-property/dist');function V(e,u){var t,a,n,r;for(a=e.length,t={},r=0;r<a;r++)n=u[r].toString(),T(t,n)?t[n].push(e[r]):t[n]=[e[r]];return t}f.exports=V
-});var p=i(function(G,h){
-var c=require('@stdlib/assert-has-own-property/dist');function j(e,u){var t,a,n,r;for(a=e.length,t={},r=0;r<a;r++)n=u[r].toString(),c(t,n)?t[n].push(r):t[n]=[r];return t}h.exports=j
-});var q=i(function(H,m){
-var S=require('@stdlib/assert-has-own-property/dist');function F(e,u){var t,a,n,r;for(a=e.length,t={},r=0;r<a;r++)n=u[r].toString(),S(t,n)?t[n].push([r,e[r]]):t[n]=[[r,e[r]]];return t}m.exports=F
-});var b=i(function(J,O){
-var w=require('@stdlib/assert-is-collection/dist'),d=require('@stdlib/error-tools-fmtprodmsg/dist'),C=g(),I=l(),L=p(),R=q();function k(e,u,t){var a,n,r;if(!w(e))throw new TypeError(d('1UJAh',e));if(a={returns:"values"},arguments.length===2)r=u;else{if(n=C(a,u),n)throw n;r=t}if(!w(r))throw new TypeError(d('1UJAm',r));if(e.length!==r.length)throw new RangeError(d('1UJ1a'));return a.returns==="values"?I(e,r):a.returns==="indices"?L(e,r):R(e,r)}O.exports=k
-});var z=b();module.exports=z;
+"use strict";var a=function(r,e){return function(){return e||r((e={exports:{}}).exports,e),e.exports}};var l=a(function(V,v){
+var h=require('@stdlib/assert-is-plain-object/dist'),q=require('@stdlib/assert-has-own-property/dist'),w=require('@stdlib/utils-index-of/dist'),i=require('@stdlib/error-tools-fmtprodmsg/dist'),s=["values","indices","*"];function p(r,e){return h(e)?q(e,"returns")&&(r.returns=e.returns,w(s,r.returns)===-1)?new TypeError(i('1UJ4S',"returns",s.join('", "'),r.returns)):null:new TypeError(i('1UJ2V',e));}v.exports=p
+});var o=a(function(j,g){
+var m=require('@stdlib/assert-is-collection/dist'),b=require('@stdlib/array-base-group-values/dist'),c=require('@stdlib/array-base-group-indices/dist'),E=require('@stdlib/array-base-group-entries/dist'),f=require('@stdlib/error-tools-fmtprodmsg/dist'),O=l();function x(r,e,d){var u,n,t;if(!m(r))throw new TypeError(f('1UJAh',r));if(u={returns:"values"},arguments.length===2)t=e;else{if(n=O(u,e),n)throw n;t=d}if(!m(t))throw new TypeError(f('1UJAm',t));if(r.length!==t.length)throw new RangeError(f('1UJ1a'));return u.returns==="values"?b(r,t):u.returns==="indices"?c(r,t):E(r,t)}g.exports=x
+});var y=o();module.exports=y;
 /** @license Apache-2.0 */
 //# sourceMappingURL=index.js.map
