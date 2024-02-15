@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import group from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-group@esm/index.mjs';
+import group from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-group@v0.2.0-esm/index.mjs';
 ```
 
 #### group( collection, \[options,] groups )
@@ -141,7 +141,7 @@ var out = group( arr, opts, groups );
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
 import floor from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-floor@esm/index.mjs';
-import group from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-group@esm/index.mjs';
+import group from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-group@v0.2.0-esm/index.mjs';
 
 var vals;
 var arr;
