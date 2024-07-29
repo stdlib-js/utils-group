@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import group from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-group@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-group/tags). For example,
+
+```javascript
 import group from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-group@v0.2.2-deno/mod.js';
 ```
 
@@ -136,7 +141,7 @@ var out = group( arr, opts, groups );
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
 import floor from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-floor@deno/mod.js';
-import group from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-group@v0.2.2-deno/mod.js';
+import group from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-group@deno/mod.js';
 
 var vals;
 var arr;
