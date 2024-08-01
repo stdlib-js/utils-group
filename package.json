@@ -37,7 +37,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/array-base-group-entries": "^0.2.1",
+    "@stdlib/array-base-group-entries": "^0.2.2",
     "@stdlib/array-base-group-indices": "^0.2.2",
     "@stdlib/array-base-group-values": "^0.2.2",
     "@stdlib/assert-has-own-property": "^0.2.2",
