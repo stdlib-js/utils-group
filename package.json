@@ -38,8 +38,8 @@
   },
   "dependencies": {
     "@stdlib/array-base-group-entries": "^0.2.2",
-    "@stdlib/array-base-group-indices": "^0.2.2",
-    "@stdlib/array-base-group-values": "^0.2.2",
+    "@stdlib/array-base-group-indices": "^0.2.3",
+    "@stdlib/array-base-group-values": "^0.2.3",
     "@stdlib/assert-has-own-property": "^0.2.2",
     "@stdlib/assert-is-collection": "^0.2.2",
     "@stdlib/assert-is-plain-object": "^0.2.2",
